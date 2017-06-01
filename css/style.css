@@ -1,0 +1,147 @@
+@import url(reset.css);
+
+body {
+    background: url(/src/images/main-bg.png);
+    font: 14px/1.5 Arial, Verdana,sans-serif;
+    color: #353535;
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #a03131;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    color: #353535;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    overflow: hidden;
+}
+
+.logo {
+    width: 204px;
+    height: 136px;
+    float: left;
+    margin-left: -2px;
+}
+
+.menu {
+    width: 960px;
+    height: 70px;
+    background: url(/src/images/menu-bg.png) no-repeat;
+}
+
+.menu ul {
+    padding-left: 42px;
+    padding-top: 25px;
+    overflow: hidden;
+}
+.menu ul li {
+    float: left;
+    color: #ffffff;
+    margin-right: 74px;
+    font: bold 18px Arial, Verdana, sans-serif;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    display: block;
+    line-height: 1;
+}
+
+.menu .current, .menu ul li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+}
+
+.menu .phone {
+    float: right;
+    margin-right: 30px;
+    line-height: 1;
+}
+.phone__number {
+    color: #ff1600;
+}
+
+.divider {
+    width: 530px;
+    height: 14px;
+    background: url("/src/images/divider.png") no-repeat;
+    margin: 25px auto 25px auto;
+}
+
+.content {
+    width: 590px;
+    margin: 0 auto;
+}
+
+.social {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.social li {
+    text-align: left;
+    height: 39px;
+    padding-left: 60px;
+    padding-top: 8px;
+}
+
+.social li a {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.facebook {
+    background: url(/src/images/fb.png) no-repeat;
+}
+
+.twitter {
+    background: url(/src/images/tw.png) no-repeat;
+}
+
+.rss {
+    background: url(/src/images/rss.png) no-repeat;
+}
+
+.dribble {
+    background: url(/src/images/dr.png) no-repeat;
+}
+
+.linkedin {
+    background: url(/src/images/in.png) no-repeat;
+}
+
+.red-text {
+    color: #a03131;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+

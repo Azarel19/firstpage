@@ -1,0 +1,27 @@
+@import url(../css/reset.css);
+
+body {
+    background: url(images/page-bg.png);
+}
+
+.p-wrapper {
+    background: url(images/wrap-bg.png) no-repeat;
+    margin: 0 auto;
+    width: 1064px;
+    height: 682px;
+}
+
+.p-header {
+    width: 960px;
+}
+
+.logo {
+
+}
+
+.p-footer {
+    background: url(images/footer-bg.png) no-repeat;
+    width: 1024px;
+    height: 62px;
+    margin: 0 auto;
+}
